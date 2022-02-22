@@ -20,3 +20,6 @@ print(dialogs.InputBox("写点东西吧","输入框"))
 print(dialogs.OpenDialog())
 print(dialogs.SaveDialog())
 ```
+
+编译：
+本程序的dll文件需要安装Pelles C for Windows打开工程编译即可。
