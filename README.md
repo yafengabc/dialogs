@@ -7,7 +7,8 @@ import dialogs即可导入使用
 
 暂时先实现了MsgBox,InputBox,OpenDialog,SaveDialog等几个函数，有空再往上加。
 示例代码：
-···python
+
+```python
 import dialogs
 
 dialogs.MsgBox()
@@ -18,4 +19,4 @@ print(dialogs.InputBox("Please Input something","caption!"))
 print(dialogs.InputBox("写点东西吧","输入框"))
 print(dialogs.OpenDialog())
 print(dialogs.SaveDialog())
-···
+```
